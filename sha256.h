@@ -1,7 +1,7 @@
 #if !defined(SHA256_H_)
 #define SHA256_H_
 
-#define USE_OPENSSL 1   /* We use the OpenSSL implementation for SHA-256 */
+#define USE_OPENSSL 0   /* We use the OpenSSL implementation for SHA-256 */
                         /* (which is quite a bit faster than our portable */
                         /* C version) */
 
